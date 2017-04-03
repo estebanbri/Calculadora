@@ -12,6 +12,7 @@
     android:columnCount="4"
     android:orientation="vertical"
     android:rowCount="5"
+
     tools:context="com.example.esteban.calculadora.MainActivity">
 
     <Button
@@ -118,21 +119,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_column="3"
-        android:layout_row="1"
-        android:onClick="onClickSuma"
         android:layout_gravity="end"
+        android:layout_row="1"
+        android:background="#616161"
+        android:onClick="onClickSuma"
         android:padding="36dp"
+        android:textSize="25sp"
         android:text="+"
-        android:textSize="25sp" />
+        />
 
     <Button
         android:id="@+id/id_resta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_column="3"
-        android:layout_row="2"
-        android:onClick="onClickResta"
         android:layout_gravity="end"
+        android:layout_row="2"
+        android:background="#616161"
+        android:onClick="onClickResta"
         android:padding="36dp"
         android:text="-"
         android:textSize="25sp" />
@@ -144,6 +148,7 @@
         android:layout_column="3"
         android:layout_gravity="end"
         android:layout_row="3"
+        android:background="#616161"
         android:onClick="onClickMultiplicacion"
         android:padding="36dp"
         android:text="*"
@@ -154,8 +159,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_column="3"
-        android:layout_row="4"
         android:layout_gravity="end"
+        android:layout_row="4"
+        android:background="#616161"
         android:onClick="onClickDivision"
         android:padding="36dp"
         android:text="/"
@@ -169,6 +175,7 @@
         android:layout_columnSpan="3"
         android:layout_gravity="fill_horizontal"
         android:layout_row="4"
+        android:background="#008000"
         android:onClick="onClickAplica_operacion"
         android:padding="36dp"
         android:text="="
@@ -186,7 +193,7 @@
         android:gravity="end"
         android:padding="36dp"
         android:textColor="#FFFFFF"
-        android:textSize="25sp" />
+        android:textSize="40sp" />
 
 
 </GridLayout>
